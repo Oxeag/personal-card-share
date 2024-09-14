@@ -6,7 +6,7 @@ interface InputPanelProps {
 }
 
 const InputPanel: React.FC<InputPanelProps> = ({ onGenerate }) => {
-  const [inputText, setInputText] = useState('雷布斯,北京,企业家,投资人,科技创新者,推动小米集团在智能家居和电动汽车领域的创新,创立小米科技，打造全球领先的智能手机品牌,担任金山软件董事长，推动公司转型,入选《财富》“全球最具影响力的50位商界领袖”');
+  const [inputText, setInputText] = useState('李淼Milo,北京,企业家,投资人,科技创新者,推动小米集团在智能家居和电动汽车领域的创新,创立小米科技，打造全球领先的智能手机品牌,担任金山软件董事长，推动公司转型,入选《财富》“全球最具影响力的50位商界领袖”');
   const [avatarFile, setAvatarFile] = useState<File | null>(null);
   const [qrCodeFile, setQrCodeFile] = useState<File | null>(null);
   const [avatarPreview, setAvatarPreview] = useState<string | null>('/images/cute.png');

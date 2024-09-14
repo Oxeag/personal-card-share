@@ -14,8 +14,8 @@ const iconMap: { [key: string]: LucideIcon } = {
   Briefcase, Star, Book, Heart, Rocket, Trophy, Zap, Coffee
 };
 const defaultCardData: CardData = {
-  name: "雷布斯",
-  location: "北京",
+  name: "李淼Milo",
+  location: "杭州",
   tags: ["企业家", "投资人", "科技创新者"],
   recentFocus: "推动小米集团在智能家居和电动汽车领域的创新",
   highlights: [
